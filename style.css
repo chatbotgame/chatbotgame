@@ -47,12 +47,25 @@ li {
     font-size: 20px;
 }
 h3 {
-    margin: 0;font-size: 2em;
+    margin: 0;
+    font-size: 2em;
     margin-bottom: 20px;
     margin-top: 60px;
 }
 .contents a {
     text-decoration: underline;
+}
+table {
+    background-color: black;
+    width: 100%;
+    text-align: center;
+    margin: 0 auto;
+}
+tr {
+    background-color: white;
+}
+td {
+    width: 50%;
 }
 @media(max-width:1000px) {
     #grid {
